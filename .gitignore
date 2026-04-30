@@ -1,3 +1,5 @@
 *.zip
 *.csv
+*.biom
+*.tsv
 data/raw/
