@@ -3,3 +3,6 @@
 *.biom
 *.tsv
 data/raw/
+.ipynb_checkpoints/
+__pycache__/
+biom_data/
