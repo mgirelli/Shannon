@@ -2,6 +2,7 @@
 *.csv
 *.biom
 *.tsv
+*.sh
 data/raw/
 .ipynb_checkpoints/
 __pycache__/
