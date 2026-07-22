@@ -34,8 +34,8 @@ def entropy(df):
     p0 = xi0[xi0>0]
     p1 = xi1[xi1>0]
     
-    Hp = -np.sum(p0 * np.log(p0), axis=0)
-    Hs = -np.sum(p1 * np.log(p1), axis=1)
+    Hs = -np.sum(p0 * np.log(p0), axis=1)
+    Hp = -np.sum(p1 * np.log(p1), axis=0)
     
     return Hp, Hs
   
